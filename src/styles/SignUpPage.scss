@@ -1,0 +1,1467 @@
+.signup-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    .div-container {
+        display: block;
+        border: 1px solid #dadce0;
+        border-radius: 8px;
+        width: 750px;
+        height: 600px;
+        transition: 0.16s ease all;
+        padding: 48px 40px 36px;
+        margin: 0 30%;
+    .container {
+
+        .title-header {
+            display: inline-block;
+            .logo {
+                margin-top: -4px;
+            }
+
+            .title {
+                margin-top: 10px;
+                font-size: 24px;
+                font-family: "Noto Sans ", sans-serif;
+                font-weight: 500;
+            }
+        }
+        .form-container {
+            display: block;
+
+            .div-name {
+                margin-top: 12px;
+                display: flex;
+                width: 52.5%;
+                gap: 10px;
+            }
+    
+            .div-image {
+                position: absolute;
+                left: 57%;
+                top: 24.5%;
+                width: 244px;
+                height: 244px;
+
+                .fig-SignUpImage {
+                    font-size: 16px;
+                    font-family: roboto, sans-serif;
+                    font-weight: 300;
+                    color: #4c4c4e;
+                    line-height: 1.4286;
+                    text-align: center;
+                }
+            }
+    
+            .div-mail-input {
+                width: 52.5%;
+
+                .container-input-mail {
+                    position: relative;
+                    padding-top: 32px;
+                    .div-gmail-add {
+                        border: 1px solid #dadce0;
+                        border-left: none;
+                        border-top-right-radius: 4px;
+                        border-bottom-right-radius: 4px;
+    
+                        display: flex;
+                        position: absolute;
+                        cursor: default;
+                        margin-top: -38px;
+                        margin-left: 252px;
+                        padding: 20px 55px 16px 42px;
+                        
+                        .gmail-add {
+                            font-family: roboto, sans-serif;
+                            font-size: 14px;
+                            color: #202124;
+                            position: absolute;
+                            margin: 0;
+                            height: 25px;
+                            bottom: 1px;
+                            left: 1px;
+                            padding-left: 8px;
+    
+                        }
+                    }
+                    .mail-input:focus ~ .gmail-add {
+                        font-family: roboto, sans-serif;
+                        font-size: 14px;
+                        color: #202124;
+                        position: absolute;
+                        margin: 0;
+                        height: 25px;
+                        top: 80px;
+                        left: 1px;
+                        padding-left: 8px;
+                    }
+                }
+                    
+                .mail-input:focus ~ .div-gmail-add {
+                    border: 2px solid #1A73E8;
+                    border-left: none;
+                    border-top-right-radius: 4px;
+                    border-bottom-right-radius: 4px;
+
+                    display: flex;
+                    position: absolute;
+                    cursor: default;
+                    margin-top: -40px;
+                    margin-left: 252px;
+                    padding: 20px 55px 16px 42px;
+                }
+                    .mail-option {
+                        display: block; 
+                        color: #1A73E8;
+                        font-family: "Product Sans Medium", sans-serif;
+                        font-size: 13px;
+                        letter-spacing: 1px;
+        
+                        width: 96%;
+                        margin-top: 8px;
+                        padding: 9px 0px 9px;
+                        border-radius: 4px;
+                    }
+        
+                    .mail-option:hover {
+                        background-color: #dce9ff34;
+                        cursor: pointer;
+                        color: #1558af;
+                    }
+
+            }
+            
+            .div-password {
+                display: flex;
+                width: 52.5%;
+                gap: 8px;
+            }
+    
+            .label-password {
+                display: block;
+                color: #202124a2;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                width: 52.5%;
+                line-height: 1.5;
+            
+                margin-top: 4px;
+                margin-left: 10px;
+            }
+
+            .div-next-login {
+                margin-top: 20px;
+
+                display: flex;
+                width: 52.5%;
+                gap: 96px;
+            }
+        }
+    }
+    }
+    #spacing-next {
+        display: none;
+    }
+}
+#next-signup-page {
+    margin-top: 50px;
+    user-select: none;
+    
+    
+    .next-signup-page {
+        width: 100px;
+
+        border-radius: 4px;
+        border: none;
+        background-color: #1A73E8;
+        color: #FFFFFF;
+        padding: 8px 25px 8px 25px;
+
+        font-family: "Product Sans Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .next-signup-page:hover {
+        background-color: #145dbd;
+        cursor: pointer;
+    }
+}.container-input-name {
+    position: relative;
+    padding-top: 32px;
+}
+//
+    .div-name {
+        .container-input-name {
+            
+            .first-name-input {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #dadce0;
+                outline-color: #1A73E8;
+                color: #202124;
+                display: block;
+                
+        
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .first-name-label {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-first-name-alert-hidden {
+                display: none;
+            }
+            .first-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .first-name-label-alert {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-first-name-alert {
+                display: flex;
+                margin-top: 4px;
+                color: #D93025;
+            }
+            .div-first-name-alert::after {
+                content: 'Digite um nome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            .last-name-input {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #dadce0;
+                outline-color: #1A73E8;
+                color: #202124;
+                display: block;
+                
+        
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .last-name-label {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-last-name-alert-hidden {
+                display: none;
+            }
+            .last-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .last-name-label-alert {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-last-name-alert {
+                display: flex;
+                margin-top: 4px;
+                color: #D93025;
+            }
+            .div-last-name-alert::after {
+                content: 'Digite um sobrenome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            #first-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            #last-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .div-all-name-alert-hidden {
+                display: none;
+            }
+            .div-all-name-alert {
+                display: flex;
+                width: 181px;
+                margin: 4px -8px 4px 0;
+                color: #D93025;
+            }
+            .div-all-name-alert::after {
+                content: 'Digite o nome e o sobrenome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            .first-name-input:focus ~ .first-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #1A73E8;
+                padding: -2px 5px;
+            }
+            .first-name-input:valid ~ .first-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .first-name-input-alert:focus ~ .first-name-label-alert  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            .first-name-input-alert:valid ~ .first-name-label-alert  {
+                background-color: #FFFFFF;
+                color: #D93025;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .last-name-input:focus ~ .last-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #1A73E8;
+                padding: -2px 5px;
+            }
+            .last-name-input:valid ~ .last-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .last-name-input-alert:focus ~ .last-name-label-alert  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            .last-name-input-alert:valid ~ .last-name-label-alert  {
+                background-color: #FFFFFF;
+                color: #D93025;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            #first-name-input-alert:focus ~ #first-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            #first-name-input-alert:valid ~ #first-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+                color: #D93025;
+            }
+            #last-name-input-alert:focus ~ #last-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            #last-name-input-alert:valid ~ #last-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+        }
+    }
+    .div-mail-input {
+
+        .mail-input {
+            color: #202124;
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #dadce0;
+            border-right: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        
+            outline: none;
+            display: block;
+        
+            height: 37px;
+            width: 72%;
+            padding: 18px 8px;
+        }
+        .mail-input:focus {
+            border: 2px solid #1A73E8 ;
+            border-right: none;
+            margin-top: -12px;
+        }
+        .label-mail-input {
+            color: rgb(128, 128, 128);
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .mail-input:focus ~ .label-mail-input {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+            color: #1A73E8;
+        }
+        .mail-input:valid ~ .label-mail-input  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+        }
+    }
+    .div-password {
+        .password-input {
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #dadce0;
+            outline-color: #1A73E8;
+            color: #202124;
+            display: block;
+            
+    
+            height: 37px;
+            width: 100%;
+            padding: 18px 8px;
+        }
+        .label-password-input {
+            color: rgb(128, 128, 128);
+            background-color: 0;
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .confirm-password-input {
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #dadce0;
+            outline-color: #1A73E8;
+            color: #202124;
+            display: block;
+            
+    
+            height: 37px;
+            width: 100%;
+            padding: 18px 8px;
+        }
+        .confirm-password-label {
+            color: rgb(128, 128, 128);
+            background-color: 0;
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .password-input:focus ~ .label-password-input  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 11px;
+            color: #1A73E8;
+            padding: -2px 5px;
+        }
+        .password-input:valid ~ .label-password-input  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 11px;
+            padding: -2px 5px;
+        }
+        .confirm-password-input:focus ~ .confirm-password-label  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 11px;
+            color: #1A73E8;
+            padding: -2px 5px;
+        }
+        .confirm-password-input:valid ~ .confirm-password-label  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 11px;
+            padding: -2px 5px;
+        }
+        // passwordalert class
+        .password-input-alert {
+            color: #202124;
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #D93025;
+        
+            outline-color: #D93025;
+            display: block;
+            width: 100%;
+        
+            height: 37px;
+            padding: 18px 8px;
+        }
+        .label-password-input-alert {
+            color: rgb(128, 128, 128);
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .password-input-alert:focus ~ .label-password-input-alert {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+            color: #D93025;
+        }
+        .password-input-alert:valid ~ .label-password-input-alert  {
+            background-color: #FFFFFF;
+            color: #D93025;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+        }
+        // confirmpassword alert class
+        .confirm-password-input-alert {
+            color: #202124;
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #D93025;
+        
+            outline-color: #D93025;
+            display: block;
+            width: 100%;
+        
+            height: 37px;
+            padding: 18px 8px;
+        }
+        .confirm-password-input-alert:focus ~ .confirm-password-input-alert {
+            border: 2px solid #D93025 ;
+        }
+        .confirm-password-label-alert {
+            color: rgb(128, 128, 128);
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .confirm-password-input-alert:focus ~ .confirm-password-label-alert {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+            color: #D93025;
+        }
+        .confirm-password-input-alert:valid ~ .confirm-password-label-alert  {
+            background-color: #FFFFFF;
+            color: #D93025;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+        }      
+}
+    .div-add-password-label-alerts {
+        // base message
+        .div-label-password-base {
+            max-width: 350px;
+            text-align: left;
+            margin-left: 8px;
+        }
+        .div-label-password-base::after {
+            content: 'Use oito ou mais caracteres com uma combinação de letras, números e símbolos';
+            color: #202124a2;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        }
+        #div-label-password-base-disabled {
+            display: none;
+        }
+
+        // alert-message
+        .div-label-password-empty-alert {
+            display: flex;
+            padding-top: 4px;
+            
+        }
+        .div-label-password-empty-alert::after {
+            content: 'Digite uma senha';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 1px;
+        }
+        #div-label-password-empty-disabled {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon {
+         color: #D93025;   
+        }
+        .div-exclamation-empty-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        // length message
+        .div-label-password-length-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        .div-label-password-length-alert::after {
+            content: 'Use 8 caracteres ou mais para sua senha';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        #div-label-password-length {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon {
+         color: #D93025;   
+        }
+        .div-exclamation-length-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        // confirmpassword empty
+        .div-label-confirm-password-empty-alert {
+            display: flex;
+            padding-top: 4px;
+            
+        }
+        .div-label-confirm-password-empty-alert::after {
+            content: 'Confirme sua senha';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 1px;
+        }
+        #div-label-confirm-password-empty-disabled {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon {
+         color: #D93025;   
+        }
+        .div-exclamation-empty-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        // different confirmpassword 
+        .div-label-confirm-password-different-alert {
+            display: flex;
+            padding-top: 4px;
+            
+        }
+        .div-label-confirm-password-different-alert::after {
+            content: 'As senhas não são iguais. Tente novamente.';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 1px;
+        }
+        #div-label-confirm-password-different-disabled {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon {
+         color: #D93025;   
+        }
+        .div-exclamation-different-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        
+    }
+    .div-name {
+        .container-input-name {
+            
+            .first-name-input {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #dadce0;
+                outline-color: #1A73E8;
+                color: #202124;
+                display: block;
+                
+        
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .first-name-label {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-first-name-alert-hidden {
+                display: none;
+            }
+            .first-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .first-name-label-alert {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-first-name-alert {
+                display: flex;
+                margin-top: 4px;
+                color: #D93025;
+            }
+            .div-first-name-alert::after {
+                content: 'Digite um nome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            .last-name-input {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #dadce0;
+                outline-color: #1A73E8;
+                color: #202124;
+                display: block;
+                
+        
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .last-name-label {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-last-name-alert-hidden {
+                display: none;
+            }
+            .last-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .last-name-label-alert {
+                color: rgb(128, 128, 128);
+                background-color: 0;
+                padding: 0 5px;
+                font-family: roboto, sans-serif;
+                font-size: 15px;
+                position: absolute;
+                pointer-events: none;
+                top: 33px;
+                left: 6px;
+                transition: 150ms ease all;
+                -moz-transition: 150ms ease all;
+                -webkit-transition: 150ms ease all;
+            }
+            .div-last-name-alert {
+                display: flex;
+                margin-top: 4px;
+                color: #D93025;
+            }
+            .div-last-name-alert::after {
+                content: 'Digite um sobrenome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            #first-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            #last-name-input-alert {
+                margin-top: -10px;
+                font-family: Roboto;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ff1100;
+                outline-color: #D93025;
+                color: #202124;
+                display: block;
+                
+                height: 37px;
+                width: 100%;
+                padding: 18px 8px;
+            }
+            .div-all-name-alert-hidden {
+                display: none;
+            }
+            .div-all-name-alert {
+                display: flex;
+                width: 181px;
+                margin: 4px -8px 4px 0;
+                color: #D93025;
+            }
+            .div-all-name-alert::after {
+                content: 'Digite o nome e o sobrenome';
+                color: #D93025;
+                font-family: roboto, sans-serif;
+                font-size: 12px;
+                margin-top: 1px;
+                margin-left: 8px;
+            }
+            .first-name-input:focus ~ .first-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #1A73E8;
+                padding: -2px 5px;
+            }
+            .first-name-input:valid ~ .first-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .first-name-input-alert:focus ~ .first-name-label-alert  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            .first-name-input-alert:valid ~ .first-name-label-alert  {
+                background-color: #FFFFFF;
+                color: #D93025;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .last-name-input:focus ~ .last-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #1A73E8;
+                padding: -2px 5px;
+            }
+            .last-name-input:valid ~ .last-name-label  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            .last-name-input-alert:focus ~ .last-name-label-alert  {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            .last-name-input-alert:valid ~ .last-name-label-alert  {
+                background-color: #FFFFFF;
+                color: #D93025;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+            }
+            #first-name-input-alert:focus ~ #first-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            #first-name-input-alert:valid ~ #first-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                padding: -2px 5px;
+                color: #D93025;
+            }
+            #last-name-input-alert:focus ~ #last-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+            #last-name-input-alert:valid ~ #last-name-label-alert {
+                background-color: #FFFFFF;
+                top: 15px;
+                left: 4px;
+                font-size: 11px;
+                color: #D93025;
+                padding: -2px 5px;
+            }
+        }
+}
+    .div-mail-input {
+
+        //base-alert
+        #div-label-mail-base-disabled.div-label-mail-base-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        #div-label-mail-base-disabled.div-label-mail-base::after {
+            content: 'Você pode usar letras, números e pontos finais';
+            color: #202124a2;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+
+        }
+        .div-label-mail-base::after {
+            content: 'Você pode usar letras, números e pontos finais';
+            color: #202124a2;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+
+        }
+        #div-label-mail-base-disabled.div-label-mail-base-alert::after {
+            content: 'Escolha um endereço do Gmail';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        #div-label-mail-base-disabled {
+            display: none;
+        }
+        //mail-alert
+        .div-label-mail-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        .div-label-mail-alert::after {
+            content: 'Este nome de usuário já está em uso. Tente outro.';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        .div-exclamation-icon {
+         color: #D93025;   
+        }
+        .div-exclamation-base-icon-hidden {
+            display: none;
+        }
+        .div-exclamation-icon-hidden {
+            display: none;
+        }
+        .mail-input-alert {
+            color: #202124;
+            margin-top: -10px;
+            font-family: Roboto;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #D93025;
+            border-right: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        
+            outline: none;
+            display: block;
+        
+            height: 37px;
+            width: 72%;
+            padding: 18px 8px;
+        }
+        .mail-input-alert:focus {
+            border: 2px solid #D93025 ;
+            border-right: none;
+            margin-top: -12px;
+        }
+        .label-mail-input-alert {
+            color: rgb(128, 128, 128);
+            padding: 0 5px;
+            font-family: roboto, sans-serif;
+            font-size: 15px;
+            position: absolute;
+            pointer-events: none;
+            top: 33px;
+            left: 6px;
+            transition: 150ms ease all;
+            -moz-transition: 150ms ease all;
+            -webkit-transition: 150ms ease all;
+        }
+        .mail-input-alert:focus ~ .label-mail-input-alert {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+            color: #D93025;
+        }
+        .mail-input-alert:valid ~ .label-mail-input-alert  {
+            background-color: #FFFFFF;
+            color: #D93025;
+            top: 15px;
+            left: 4px;
+            font-size: 10px;
+        }
+        // google
+        .div-label-mail-google-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        .div-label-mail-google-alert::after {
+            content: 'Este nome de usuário não é permitido. Tente novamente.';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        // symbols
+        .div-label-mail-symbols-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        .div-label-mail-symbols-alert::after {
+            content: 'Somente letras (a - z), números (0 - 9) e pontos (.) são permitidos.';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        // length
+        .div-label-mail-length-alert {
+            display: flex;
+            margin-top: 4px;
+        }
+        .div-label-mail-length-alert::after {
+            content: 'Seu nome de usuário deve ter entre 6 e 30 caracteres.';
+            color: #D93025;
+            font-family: roboto, sans-serif;
+            font-size: 12px;
+        
+            margin-left: 8px;
+            padding-top: 2px;
+        }
+        // gmail-add
+        .mail-input-alert:focus ~ #div-gmail-add-alert {
+            border: 2px solid #D93025;
+            border-left: none;
+            margin-top: -40px;
+            
+        }       
+        .mail-input-alert:valid ~ .div-gmail-add-alert {
+            border: 1px solid #D93025;
+            border-left: none;
+        }                    
+        .div-gmail-add-alert {
+            border: 1px solid #D93025;
+            border-left: none;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+
+            display: flex;
+            position: absolute;
+            cursor: default;
+            margin-top: -38px;
+            margin-left: 252px;
+            padding: 20px 55px 16px 42px;
+            
+            .gmail-add-alert {
+                font-family: roboto, sans-serif;
+                font-size: 14px;
+                color: #202124;
+                position: absolute;
+                margin: 0;
+                height: 25px;
+                bottom: 1px;
+                left: 1px;
+                padding-left: 8px;
+            }
+        }
+
+    }
+
+
+// 
+@media (max-width: 900px) {
+    #div-container {
+            transition: 0.3s ease all;
+            width: 450px;
+            
+        .div-image{
+            display: none;
+        }
+        #div-name {
+            width: 100%;
+        }
+        #div-gmail-add {
+            margin-left: 270px;
+        }
+        #div-mail-input {
+            width: 105%;
+        }
+        #div-password {
+            width: 100%;
+        }
+
+        #label-password {
+            width: 100%;
+        }
+        .div-show-password {
+            margin-left: -4px;
+        }
+        #div-next-login {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    #div-container {
+        display: block;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        padding: 48px 40px 36px;
+        margin: 0;
+
+        #div-name {
+            display: block;
+        }
+    }
+        #container-input-mail {
+            display: flex;
+
+            .mail-input {
+                width: 80%;
+            }
+            .label-mail-input {
+
+            }
+            #div-gmail-add {
+                height: 38px;
+                padding: 0 7.8% 0 7.8%;
+                margin: 0;
+                margin-right: 4.5%;
+                margin-top: -10px;
+
+                display: flex;
+                position: unset;
+                .gmail-add{
+                    display: flex;
+                    position: unset;
+                    margin-top: 10px;
+                    margin-right: -24px;
+
+                }   
+            }
+            .mail-input:focus ~ #div-gmail-add {
+                background-color: #FFFFFF;
+                height: 40px;
+                font-size: 14px;
+                color: #1A73E8;
+            }
+            .mail-input:valid ~ #div-gmail-add  {
+                background-color: #FFFFFF;
+                height: 40px;
+                font-size: 12px;
+            }
+        }
+        #div-password {
+            display: inline-block;
+        }
+        #div-next-login {
+
+            #spacing-next {
+                display: block;
+                width: 100%;
+            }
+        }
+        
+}
+@media (max-width: 600px) {
+    #container-input-name{
+        
+        .signup-input {
+            height: 36px;
+            padding: 8px 8px;
+        }
+        .mail-label {
+            top: 32px;
+            font-size: 14px;
+        }
+        .signup-input:focus ~ #mail-label  {
+            background-color: #FFFFFF;
+            top: 16px;
+            left: 4px;
+            font-size: 11px;
+            color: #1A73E8;
+        }
+        .signup-input:valid ~ #mail-label  {
+            background-color: #FFFFFF;
+            top: 15px;
+            left: 4px;
+            font-size: 11px;
+        }
+
+    }
+}
+
+// 760 height

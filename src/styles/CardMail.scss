@@ -1,0 +1,334 @@
+:root {
+    --BackgroundInput: rgb(237, 237, 242);
+    --HoverButton: rgb(240, 240, 240);
+}
+#div-aside-button-caixadeentrada {
+
+    #aside-button-icon-caixadeentrada {
+        opacity: 0.6;
+    }
+
+    .div-aside-button-link {
+        display: inline-block;
+
+        .aside-button-link {
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .div-aside-button-number {
+        display: inline-block;
+        padding: 1px 0 0 24px;
+        .aside-button-number {
+            opacity: 0.5;
+            font-family: Roboto, sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        }
+    }
+#div-aside-button-caixadeentrada-focus {
+    background-color: rgb(243, 224, 224);
+    .div-aside-button-link {
+        display: inline-block;
+
+        .aside-button-link {
+            background-color: rgba(255, 0, 0, 0.01);
+            color: #d10000;
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .div-aside-button-number {
+        display: inline-block;
+        padding: 1px 0 0 24px;
+        .aside-button-number {
+            background-color: rgba(255, 0, 0, 0.01);
+            color: #d10000;
+            font-family: Roboto, sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        }
+    }
+#aside-button-icon-caixadeentrada {
+    opacity: 1;
+}
+.div-aside-button {
+    display: flex;
+    cursor: pointer;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 0.52;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: black;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+    }
+}
+#div-aside-button-social-focus {
+    display: flex;
+    cursor: pointer;
+    width: 210px;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #dfecee;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 1;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: #1A73E8;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+#div-aside-button-atualizações-focus {
+    display: flex;
+    cursor: pointer;
+    width: 210px;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #f5ead2;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 1;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: #E37400;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+#div-aside-button-fóruns-focus {
+    display: flex;
+    cursor: pointer;
+    width: 210px;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #eedef8;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 1;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: #A142F4;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+#div-aside-button-promoções-focus {
+    display: flex;
+    cursor: pointer;
+    width: 210px;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #e5f8e7;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 1;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: #188038;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+#div-aside-button-categorias-focus {
+    background-color: unset;
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 0.8;
+        }
+    }
+}
+#div-aside-button-categorias-focus:hover {
+    
+    background-color: var(--HoverButton);
+}
+#div-aside-button-social-focus:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-atualizações-focus:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-fóruns-focus:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-promoções-focus:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-social:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-atualizações:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-fóruns:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-promoções:hover {
+    width: 210px;
+    background-color: var(--HoverButton);
+}
+#div-aside-button-categorias {
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 0.8;
+        }
+    }
+}
+.div-aside-button-focus {
+    display: flex;
+    cursor: pointer;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #dee1e9;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 0.52;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: black;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+.div-aside-button-more {
+    display: flex;
+    cursor: pointer;
+    padding: 7px 5px 3px 25px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+
+    .div-aside-button-icon {
+        
+        .aside-button-icon {
+            opacity: 0.52;
+        }
+    }
+    .div-aside-button-link {
+        padding-left: 15px;
+        margin-top: 1px;
+    
+        .aside-button-link {
+            text-decoration: none;
+            color: black;
+            font-family: roboto, sans-serif;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+    }
+}
+.div-aside-button:hover {
+    background-color: var(--HoverButton);
+}
+.div-aside-button-more:hover {
+    background-color: var(--HoverButton);
+}
+.div-aside-button:hover  .aside-button-link{
+    background-color: var(--BackgroundInput);
+}
+.div-aside-button-more:hover  .aside-button-link{
+    background-color: var(--BackgroundInput);
+}
+
+        // {
+        //     title: "Menos",
+        //     icon: "https://www.gstatic.com/images/icons/material/system/1x/expand_less_black_20dp.png",
+        //     total: 2
+        // },

@@ -1,0 +1,20 @@
+#create-account {
+    padding-top: 50px;
+    display: inline;
+    user-select: none;
+        .create-account {
+        color: #1A73E8;
+        font-family: "Product Sans Medium", sans-serif;
+        font-size: 14px;
+        margin-left: -8px;
+        padding: 9px 8px 9px;
+        border-radius: 4px;
+        display: flex;
+        width: 162px;
+    }
+    .create-account:hover {
+        background-color: #dce9ff34;
+        cursor: pointer;
+        color: #1558af;
+    }
+}
